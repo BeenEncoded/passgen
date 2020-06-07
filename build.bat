@@ -1,0 +1,1 @@
+python.exe -m PyInstaller --clean --win-private-assemblies --onefile -n passgen .\src\main.py
