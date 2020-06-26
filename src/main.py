@@ -1,4 +1,4 @@
-import sys, secrets, argparse, os, enum, argparse
+import sys, secrets, argparse, os, enum
 
 # list constants representing lists of characters.  The ranges are from the ASCII table.
 SPECIAL_CHARACTERS = [chr(c) for c in (list(range(32, 48)) + list(range(58, 65)) + list(range(91, 97)) + list(range(123, 127)))]
